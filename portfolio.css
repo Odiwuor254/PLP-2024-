@@ -1,0 +1,55 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  background-image: url("images/Pengu.jpg.webp");
+}
+header{
+  color:white;
+  padding:20px;
+  background-color: aqua;
+}
+header h1{
+  margin:0 ;
+  font-size:25px ;
+}
+nav{
+  height:50px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: aquamarine;
+}
+nav ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+  display:flex;
+}
+nav li{
+margin:0 100px;
+}
+nav a{
+  text-decoration: none;
+  color:#333;
+
+
+}
+main{
+  max-width:1000px;
+  margin:0 25px;
+  padding:0;
+}
+section{
+margin-bottom: 20PX;
+}
+h2 {
+  margin: 0 0 20px 0;
+  font-size: 22px;
+}
+footer{
+  background-color: aqua;
+  color:black;
+  padding:20px;
+  text-align: center;
+
+}
